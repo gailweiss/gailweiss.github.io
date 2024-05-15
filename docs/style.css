@@ -1,0 +1,65 @@
+/*this one is somehow important to responsive web design idk
+  https://www.w3schools.com/css/css_rwd_grid.asp */
+* {
+  box-sizing: border-box;
+}
+
+.notbold{
+    font-weight:normal;
+}
+
+nav {
+    font-size:11pt;
+}
+
+.indented{
+    margin-left: 50px;
+}
+
+body {
+  background: linear-gradient(to bottom right,white,rgba(200,100,100,0.5));
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.portrait{
+    height:auto;
+    width:50px;
+}
+
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1000px;
+}
+
+@media only screen and (min-width: 500px) {
+    .portrait{
+        height: auto;
+        width:100px;
+    }
+}
+
+
+.floats{
+    float:left;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+
+.clearsfloats{
+    clear:both;
+}
+
+.spaced li{
+    margin: 10px 0;
+}
+
